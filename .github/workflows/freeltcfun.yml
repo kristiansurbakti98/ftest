@@ -8,6 +8,8 @@ on:
 jobs:
   run-php-script:
     runs-on: ubuntu-latest
+    env:
+      TERM: xterm
     steps:
       - uses: actions/checkout@v4
       - name: Install PHP
