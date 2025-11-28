@@ -2,7 +2,7 @@ name: Run freeltcfun.php every 5 minutes
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Setiap 5 menit
+    - cron: '*/1 * * * *' # Setiap 5 menit
 
 jobs:
   run-php-script:
