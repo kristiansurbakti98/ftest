@@ -1,8 +1,9 @@
-name: Run freeltcfun.php every 5 minutes
+name: Run freeltcfun.php every 1 minutes
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Setiap 5 menit
+    - cron: '*/1 * * * *' # Setiap 1 menit
+  workflow_dispatch:
 
 jobs:
   run-php-script:
